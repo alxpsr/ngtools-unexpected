@@ -1,0 +1,1 @@
+# ngtools unexpected compile result
