@@ -14,8 +14,8 @@ import { HomeAdaptiveComponent } from './home/home.adaptive.component';
     BrowserModule.withServerTransition({appId: 'my-app'}),
     RouterModule.forRoot([
       { path: '', component: HomeAdaptiveComponent, pathMatch: 'full'},
-      { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule'},
-      { path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'}
+      { path: 'lazy', loadChildren: './lazy/lazy.desktop.module#LazyModule'},
+      { path: 'lazy/nested', loadChildren: './lazy/lazy.desktop.module#LazyModule'}
     ]),
   ],
   providers: [],
